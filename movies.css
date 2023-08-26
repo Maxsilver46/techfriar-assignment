@@ -1,0 +1,383 @@
+*{
+    background-color: rgb(187, 19, 19);
+}
+
+
+.movie-1{
+    background-color: #fff;
+    position: relative;
+    margin: auto;
+    top: 500px;
+    height: 410px;
+    width: 80%;
+   
+    box-shadow: 3px 3px 3px #000;
+    border-radius: 3em;
+}
+
+.movie-1-1{
+    background-color: #fff;
+    position: relative;
+    margin: auto;
+    top: 30px;
+   
+    height: 350px;
+    width: 94%;
+    border-radius: 1.5em;
+}
+
+.movie-1-1 img{
+    
+    left: 0%;
+    position: absolute;
+    
+    width: 20%;
+    border-radius: 1em;
+}
+
+.movie-1-1 h1{
+    font-size: 35px;
+    position: absolute;
+    bottom: 80%;
+    right: 36%;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #fff;   
+}
+
+.back{
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    
+}
+
+.rating{
+    position: absolute;
+    bottom: 5%;
+    left: 0%;
+    width: 20%;
+    
+    height: 3px;
+    border-radius: 1em;
+    background-color: rgb(0, 0, 0);
+}
+
+.ratings{
+    position: relative;
+    
+    width: 84%;
+    height: 3px;
+    border-radius: 1em;
+    background-color: rgb(81, 187, 117);
+}
+
+.movie-1-1 pre{
+    position: absolute;
+    background-color: #fff;
+    margin: 13% 24%;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.trailer::after{
+    position: absolute;
+    margin: 8% 24%;
+    border-radius: 4px;
+    padding: 9px 16px;
+    border: 1px solid black;
+    color: #161616;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    content: 'Trailer';
+    background-color: #fff;
+}
+
+.trailer:hover::after{
+    color: #fff;
+    background-color: #252525;
+    transition: 0.4s;
+}
+
+.watch::after{
+    position: absolute;
+    margin: 8% 36%;
+    border-radius: 4px;
+    padding: 7px 16px;
+    border: 1px solid black;
+    color: #161616;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    content: '🎥 Watch';
+    background-color: #fff;
+}
+
+.watch:hover::after{
+    color: #fff;
+    background-color: #252525;
+    transition: 0.4s;
+}
+
+.movie-1-1 p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    font-size: 15px;
+    background-color: #fff;
+    top: 83%;
+    color: #e7a529;
+    left: 6%;
+}
+
+
+
+
+/*______________________________________________________2___________________________________________________*/
+
+
+
+
+.movie-2{
+    background-color: #fff;
+    position: relative;
+    margin: auto;
+    top: 600px;
+    height: 410px;
+    width: 80%;
+    box-shadow: 3px 3px 3px #000;
+    border-radius: 3em;
+}
+
+.movie-2-1{
+    background-color: #fff;
+    position: relative;
+    margin: auto;
+    top: 30px;
+   
+    height: 350px;
+    width: 94%;
+    border-radius: 1.5em;
+}
+
+.movie-2-1 img{
+    
+    left: 0%;
+    position: absolute;
+    
+    width: 20%;
+    border-radius: 1em;
+}
+
+.movie-2-1 h1{
+    font-size: 35px;
+    position: absolute;
+    bottom: 80%;
+    right: 30.5%;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #fff;   
+}
+
+
+.rating-2{
+    position: absolute;
+    bottom: 5%;
+    left: 0%;
+    width: 20%;
+    
+    height: 3px;
+    border-radius: 1em;
+    background-color: rgb(0, 0, 0);
+}
+
+.ratings-2{
+    position: relative;
+    
+    width: 84%;
+    height: 3px;
+    border-radius: 1em;
+    background-color: rgb(81, 187, 117);
+}
+
+.movie-2-1 pre{
+    position: absolute;
+    background-color: #fff;
+    margin: 13% 24%;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.trailer-2::after{
+    position: absolute;
+    margin: 8% 24%;
+    border-radius: 4px;
+    padding: 9px 16px;
+    border: 1px solid black;
+    color: #161616;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    content: 'Trailer';
+    background-color: #fff;
+}
+
+.trailer-2:hover::after{
+    color: #fff;
+    background-color: #252525;
+    transition: 0.4s;
+}
+
+.watch-2::after{
+    position: absolute;
+    margin: 8% 36%;
+    border-radius: 4px;
+    padding: 7px 16px;
+    border: 1px solid black;
+    color: #161616;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    content: '🎥 Watch';
+    background-color: #fff;
+}
+
+.watch-2:hover::after{
+    color: #fff;
+    background-color: #252525;
+    transition: 0.4s;
+}
+
+.movie-2-1 p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    font-size: 15px;
+    background-color: #fff;
+    top: 83%;
+    color: #e7a529;
+    left: 6%;
+}
+
+
+
+/*______________________________________________________3___________________________________________________*/
+
+
+
+
+.movie-3{
+    background-color: #fff;
+    position: relative;
+    margin: auto;
+    top: 700px;
+    height: 410px;
+    width: 80%;
+    box-shadow: 3px 3px 3px #000;
+    border-radius: 3em;
+}
+
+.movie-3-1{
+    background-color: #fff;
+    position: relative;
+    margin: auto;
+    top: 30px;
+   
+    height: 350px;
+    width: 94%;
+    border-radius: 1.5em;
+}
+
+.movie-3-1 img{
+    
+    left: 0%;
+    position: absolute;
+    
+    width: 20%;
+    border-radius: 1em;
+}
+
+.movie-3-1 h1{
+    font-size: 35px;
+    position: absolute;
+    bottom: 80%;
+    right: 14.5%;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #fff;   
+}
+
+
+.rating-3{
+    position: absolute;
+    bottom: 5%;
+    left: 0%;
+    width: 20%;
+    
+    height: 3px;
+    border-radius: 1em;
+    background-color: rgb(0, 0, 0);
+}
+
+.ratings-3{
+    position: relative;
+    
+    width: 80%;
+    height: 3px;
+    border-radius: 1em;
+    background-color: rgb(81, 187, 117);
+}
+
+.movie-3-1 pre{
+    position: absolute;
+    background-color: #fff;
+    margin: 13% 24%;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.trailer-3::after{
+    position: absolute;
+    margin: 8% 24%;
+    border-radius: 4px;
+    padding: 9px 16px;
+    border: 1px solid black;
+    color: #161616;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    content: 'Trailer';
+    background-color: #fff;
+}
+
+.trailer-3:hover::after{
+    color: #fff;
+    background-color: #252525;
+    transition: 0.4s;
+}
+
+.watch-3::after{
+    position: absolute;
+    margin: 8% 36%;
+    border-radius: 4px;
+    padding: 7px 16px;
+    border: 1px solid black;
+    color: #161616;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    content: '🎥 Watch';
+    background-color: #fff;
+}
+
+.watch-3:hover::after{
+    color: #fff;
+    background-color: #252525;
+    transition: 0.4s;
+}
+
+.movie-3-1 p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    font-size: 15px;
+    background-color: #fff;
+    top: 83%;
+    color: #e7a529;
+    left: 6%;
+}

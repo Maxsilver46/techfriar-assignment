@@ -1,0 +1,159 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back{
+    height: 100vh;
+    width: 100%;
+    background-image: url('things/login.jpg');
+    background-size: cover;
+    background-position: center;
+    
+            }
+.head{
+    color: #ffff;
+    font-size: 22px;
+    position: absolute;
+    top: 37%;
+    left: 5%;
+    
+}
+
+.head h1{
+    font-size: 60px;
+    text-shadow: 2px 2px 2px #000;
+}
+.head p{
+    text-shadow: 2px 2px 2px #000;
+}
+
+.head a::after{
+    
+    position: absolute;
+    top: 120%;
+    left: 30%;
+    color:#000000;
+    text-decoration: none;
+    border: 1px solid #ffff;
+    padding: 8px 30px;
+    content: 'EXPLORE';
+    background: #ffff;
+    font-weight: bold;
+}
+
+.head a:hover::after{
+    color:#ffffff;
+    background: #e71d1d;
+    content: 'E X P L O R E';
+    transition: 0.4s;
+}
+
+.logo{
+    width: 130px;
+}
+
+nav{
+   
+    
+    display: flex;
+    padding: 2%, 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    flex: 1;
+    text-align: right;
+}
+
+.nav ul li{
+    padding: 10px 23px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    right: 35%;
+}
+
+.nav ul li a{
+    font-size: 15px;
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    transition: 0.49s;
+}
+
+.nav ul li a:hover::after{
+    width: 100%;
+}
+
+.other{
+    background-color: #d65858;
+    position: absolute;
+    
+    height: 300px;
+    width: 100%;
+    
+}
+
+.other h1{
+    color: #ffffff;
+    position: relative;
+    left: 60%;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.other p{
+    color: #ffffff;
+    position: relative;
+    left: 33%;
+    font-size: 25px;
+}
+
+.other-1{
+    position: absolute;
+    width: 30%;
+    height: 299px;
+    
+}
+
+.other-1 img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.other a::after{
+        position: relative;
+        left: 60%;
+        color:#d82d2d;
+        font-size: 20px;
+        border: 1px solid #ffff;
+        padding: 8px 30px;
+        content: 'KNOW MORE';
+       
+        
+        background: #ffff;
+        font-weight: bold;
+}
+.other a{
+    text-decoration: none;
+}
+
+
+.other a:hover::after{
+    color: #ffffff;
+    background: #d65858;
+    transition: 0.4s;
+    
+}

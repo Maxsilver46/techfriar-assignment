@@ -1,0 +1,110 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;    
+}
+
+img{
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+}
+
+.contains{
+    position: relative;
+    border: 2px solid #fff;
+    width: 25%;
+    bottom: 600px;
+    left: 37.5%;
+    height: 400px;
+    padding: 5px 5px;
+    box-shadow: 2px 2px 2px #474747;
+    background: transparent;
+    border-radius: 1em;    
+    backdrop-filter: blur(20px);
+}
+
+.login{
+    text-align: center;
+    right: 5.5%;
+    top: 4%;
+    height: 91%;
+    width: 89%;
+    position: absolute;
+    
+}
+
+.input-1{
+    position: absolute;
+    
+    top: 32%;
+    height: 40px;
+    border-bottom: 3px solid #ffffff;
+    width: 100%;
+}
+
+.input-2{
+    width: 100%;
+    position: absolute;
+    top: -12px;
+    height: 40px;
+    border-bottom: 3px solid #ffffff;
+    top: 50%;
+}
+
+.input-3{
+    width: 100%;
+    
+    position: absolute;
+    top: 68%;
+    height: 40px;
+    border-bottom: 3px solid #ffffff;
+}
+
+.butt{
+    position: absolute;
+    bottom: 2%;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 4px 16px;
+    left:40%;
+    background-color: #ffffff;
+    color: #02467e;
+    height: 45px;
+    border-radius: 8px;
+}
+
+
+
+.input label{
+    position: absolute;
+    top: 20%;
+    left: 5px;
+    font-weight: 600;
+    pointer-events: none;
+    transition: 0.4s;
+}
+
+.input input{
+    position: relative;
+    width: 100%;
+    right: 0%;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    font-weight: 400;
+    height: 40px;
+    padding: 0 35px 0 5px;
+}
+
+.input input:focus~label,
+.input input:valid~label{
+    top: -12px;
+}
+
+.input .icons{
+    position: absolute;
+    right: 8px;
+    top: 20%;
+    line-height: 40px;
+}
